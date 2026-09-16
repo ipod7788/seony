@@ -1,0 +1,1519 @@
+@charset "UTF-8";
+/**
+ * respond( $a [ ,$b ] )
+ * Generate media quereis string
+ *
+ * @include respond( 0, 799 ) {}    // <=800  (0~800)
+ * @include respond( 800, 1199 ) {} // 800~1199
+ * @include respond( 1200 ) {}      // >=1200
+ */
+/**
+ * Cozy Layout ( 1440+ )
+ */
+/**
+ * Compact Layout ( 0~1280 )
+ */
+/**
+ * pad Layout ( 0~992 )
+ */
+/**
+ * Mobile Layout ( 0~768 )
+ */
+/**
+ * Mobile Layout ( 0~640 )
+ */
+/**
+ * Mobile Layout ( 0~480 )
+ */
+/**
+ * Mobile Layout ( 0~414 )
+ */
+/**
+ * Mobile Layout ( 0~390 )
+ */
+/**
+ * Mobile Layout ( 0~375 )
+ */
+/**
+ * Mobile Layout ( 0~320 )
+ */
+/**
+ * Box-sizing
+ */
+/**
+ * clearfix
+ */
+/**
+ * font-family
+ */
+/**
+ * hide text
+ */
+/**
+ * border-radius
+ */
+/**
+ * box-shadow
+ */
+/**
+ * background-gradient
+ */
+/**
+ * columns
+ */
+/**
+ * Opacity
+ */
+/**
+ * other minins by yougi
+ */
+/* line 3, ../sass/admin.scss */
+body {
+  font-family: "微軟正黑體",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 14px;
+}
+
+/* line 7, ../sass/admin.scss */
+header {
+  display: none;
+  height: 100vh;
+  float: left;
+  background-color: #040814;
+  width: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 17, ../sass/admin.scss */
+.loginbg {
+  background-color: #151515;
+}
+
+/* line 21, ../sass/admin.scss */
+.amdin_wrapper {
+  width: 100%;
+  padding: 5% 20%;
+}
+
+/* line 25, ../sass/admin.scss */
+.big_head {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+/* line 29, ../sass/admin.scss */
+.big_head img {
+  width: 100%;
+}
+
+/* line 33, ../sass/admin.scss */
+.admin_title {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  color: #ccc;
+}
+
+/* line 39, ../sass/admin.scss */
+.use_bg {
+  width: 100%;
+  max-width: 340px;
+  background-color: #000000;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+/* line 47, ../sass/admin.scss */
+.use_bg h2 {
+  text-align: center;
+  color: #ccc;
+}
+
+/* line 54, ../sass/admin.scss */
+.enter_bar {
+  background-color: #202020;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 61, ../sass/admin.scss */
+.enter_ipt {
+  display: inline-block;
+  width: 230px;
+  font-size: 1.4em;
+}
+/* line 65, ../sass/admin.scss */
+.enter_ipt input {
+  width: 100%;
+  background-color: #202020;
+  border: none;
+  color: #fff;
+}
+/* line 72, ../sass/admin.scss */
+.enter_ipt input[placeholder] {
+  padding: 0 20px;
+}
+
+/* line 76, ../sass/admin.scss */
+.enter_icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #151515;
+  text-align: center;
+  padding-top: 10px;
+  color: #999;
+}
+/* line 84, ../sass/admin.scss */
+.enter_icon i {
+  font-size: 1.2em;
+  color: #E58010;
+}
+
+/* line 90, ../sass/admin.scss */
+.log_fogt {
+  overflow: hidden;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+/* line 95, ../sass/admin.scss */
+.signin {
+  color: #E58010;
+  text-align: center;
+}
+/* line 98, ../sass/admin.scss */
+.signin a {
+  color: #E58010;
+  cursor: pointer;
+}
+/* line 101, ../sass/admin.scss */
+.signin a:hover {
+  text-decoration: underline;
+  color: #E58010;
+}
+
+/* line 108, ../sass/admin.scss */
+a.edrt {
+  background-color: #666;
+  color: #ffffff !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* line 120, ../sass/admin.scss */
+a.edrt:hover {
+  background-color: #E58010;
+  transition: all 0.5s;
+}
+
+/* line 127, ../sass/admin.scss */
+.save_card {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 131, ../sass/admin.scss */
+.logout {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+/* line 136, ../sass/admin.scss */
+.logo {
+  width: 180px;
+  text-align: center;
+  padding: 15px 0;
+}
+/* line 140, ../sass/admin.scss */
+.logo img {
+  width: 80%;
+}
+
+/* line 145, ../sass/admin.scss */
+.continer {
+  padding-right: 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  padding-top: 50px;
+  min-height: calc( 100vh - 30px );
+  background: #fff;
+  padding-bottom: 30px;
+}
+
+/* line 155, ../sass/admin.scss */
+.note {
+  float: left;
+}
+
+/* line 158, ../sass/admin.scss */
+.topmenu {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 43px;
+}
+
+/* line 168, ../sass/admin.scss */
+ul.menu {
+  width: 180px;
+  position: fixed;
+  top: 40px;
+  background: #040814;
+}
+/* line 177, ../sass/admin.scss */
+ul.subcate {
+  display: inline-block;
+}
+/* line 179, ../sass/admin.scss */
+ul.subcate li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* line 183, ../sass/admin.scss */
+ul.subcate li input {
+  margin-right: 5px;
+}
+/* line 186, ../sass/admin.scss */
+ul.subcate li label {
+  margin-bottom: 0;
+}
+/* line 191, ../sass/admin.scss */
+ul.shotcut {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+/* line 194, ../sass/admin.scss */
+ul.shotcut li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 200, ../sass/admin.scss */
+.table {
+  margin-top: 20px;
+}
+/* line 202, ../sass/admin.scss */
+.table.stroke {
+  max-width: 500px;
+}
+
+/* line 207, ../sass/admin.scss */
+.login_contral_wrapper {
+  width: 300px;
+  margin: 30px auto 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+}
+/* line 213, ../sass/admin.scss */
+.login_contral_wrapper h2, .login_contral_wrapper h4 {
+  text-align: center;
+}
+/* line 216, ../sass/admin.scss */
+.login_contral_wrapper input {
+  font-size: 1em !important;
+  margin: 5px 0;
+}
+
+/* line 222, ../sass/admin.scss */
+.btn.export {
+  margin-right: 20px;
+}
+
+/* line 226, ../sass/admin.scss */
+.btnone_center {
+  text-align: center;
+}
+
+/* line 229, ../sass/admin.scss */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* line 232, ../sass/admin.scss */
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 236, ../sass/admin.scss */
+.pagelist a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #666;
+}
+/* line 240, ../sass/admin.scss */
+.pagelist a.on {
+  text-decoration: underline;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #ccc;
+  color: #333;
+  font-weight: bolder;
+}
+
+/* line 250, ../sass/admin.scss */
+#g1_note, #g2_note, #g3_note {
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* line 255, ../sass/admin.scss */
+.submenu {
+  display: inline-block;
+  float: right;
+  font-size: 0.6em;
+}
+
+/* line 262, ../sass/admin.scss */
+#twzipcode select {
+  width: 150px;
+  display: inline-block;
+}
+
+/* line 267, ../sass/admin.scss */
+#memberedit select {
+  width: 150px;
+}
+
+/* line 271, ../sass/admin.scss */
+h2 a {
+  margin: 0 10px;
+}
+
+/* line 274, ../sass/admin.scss */
+.searchinp {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* line 278, ../sass/admin.scss */
+.searchinp input, .searchinp select {
+  margin-left: 3px;
+}
+
+/* line 281, ../sass/admin.scss */
+.searchbutton {
+  text-align: center;
+}
+
+/* line 291, ../sass/admin.scss */
+.form-check-inline {
+  width: 350px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+/* line 296, ../sass/admin.scss */
+.form-check-inline.onchked {
+  background-color: #ffeab2;
+}
+
+/* line 302, ../sass/admin.scss */
+li.nav-item {
+  border-bottom: 1px solid #aaa;
+  display: block;
+  width: 100%;
+  margin: 0 10px;
+}
+/* line 307, ../sass/admin.scss */
+li.nav-item:nth-child(1) {
+  border-top: 1px solid #aaa;
+}
+/* line 310, ../sass/admin.scss */
+li.nav-item a {
+  color: #fff;
+}
+
+/* line 316, ../sass/admin.scss */
+ul.subitem {
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+/* line 319, ../sass/admin.scss */
+ul.subitem a {
+  text-decoration: underline;
+}
+
+/* line 324, ../sass/admin.scss */
+.setColumn {
+  column-gap: 60px;
+}
+/* line 325, ../sass/admin.scss */
+.setColumn.g5 {
+  column-count: 5;
+}
+
+/* line 331, ../sass/admin.scss */
+.ssinp {
+  display: inline-block;
+  width: 200px;
+}
+
+/* line 337, ../sass/admin.scss */
+.uploadstatus img {
+  max-height: 150px;
+}
+
+/* line 342, ../sass/admin.scss */
+.logoimg img {
+  max-width: 150px;
+  height: auto;
+  min-width: 50px;
+}
+
+/* line 350, ../sass/admin.scss */
+.adminimg img {
+  width: auto;
+  max-height: 150px;
+}
+
+/* line 357, ../sass/admin.scss */
+.file {
+  position: relative;
+  background: linear-gradient(to right, lightblue 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease;
+}
+
+/* line 364, ../sass/admin.scss */
+.file.done {
+  background: lightgreen;
+}
+
+/* line 367, ../sass/admin.scss */
+.file a {
+  display: block;
+  position: relative;
+  padding: 5px;
+  color: black;
+}
+
+/* line 375, ../sass/admin.scss */
+.mlist {
+  list-style: none;
+  float: left;
+  padding-left: 0;
+}
+/* line 379, ../sass/admin.scss */
+.mlist li {
+  display: inline-block;
+  padding: 0 15px;
+  border-left: 1px solid #ccc;
+}
+/* line 383, ../sass/admin.scss */
+.mlist li:first-child {
+  border: none;
+}
+
+/* line 389, ../sass/admin.scss */
+.cke_contents {
+  height: 800px !important;
+}
+
+/* line 393, ../sass/admin.scss */
+.banblock {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px;
+}
+
+/* line 400, ../sass/admin.scss */
+.sstextarea .cke_contents {
+  height: 200px !important;
+}
+
+/* line 404, ../sass/admin.scss */
+.changepassword {
+  display: none;
+}
+
+/*密碼強度指示*/
+/* line 412, ../sass/admin.scss */
+#pwindicator {
+  margin-top: 4px;
+  /*width: 150px;*/
+  /*官網有這個，但好像有加沒加都沒差，所以拿掉*/
+}
+
+/*官方只有寫 .bar，為了避免和自己Web專案有衝突，Selector改寫如下*/
+/* line 418, ../sass/admin.scss */
+#pwindicator > .bar {
+  margin-bottom: 2px;
+  /*這官網沒有，視自己專案需求要不要加。沒加的話，可能bar條和文字會上下黏一塊*/
+  height: 2px;
+}
+
+/* line 423, ../sass/admin.scss */
+#pwindicator > .label {
+  /*顯示弱、中、強的文字大小，此Selector官方沒有，自己加的*/
+  font-size: 12px;
+}
+
+/*以下顏色自行配*/
+/*非常弱*/
+/* line 431, ../sass/admin.scss */
+.pw-very-weak .bar {
+  background: #d00;
+  width: 30px;
+}
+
+/* line 436, ../sass/admin.scss */
+.pw-very-weak .label {
+  color: #d00;
+}
+
+/* line 440, ../sass/admin.scss */
+.pw-weak .bar {
+  background: #d00;
+  width: 60px;
+}
+
+/* line 445, ../sass/admin.scss */
+.pw-weak .label {
+  color: #d00;
+}
+
+/* line 449, ../sass/admin.scss */
+.pw-mediocre .bar {
+  background: #ae7a00;
+  width: 90px;
+}
+
+/* line 454, ../sass/admin.scss */
+.pw-mediocre .label {
+  color: #ae7a00;
+}
+
+/* line 458, ../sass/admin.scss */
+.pw-strong .bar {
+  background: #f3b31a;
+  width: 120px;
+}
+
+/* line 463, ../sass/admin.scss */
+.pw-strong .label {
+  color: #f3b31a;
+}
+
+/* line 467, ../sass/admin.scss */
+.pw-very-strong .bar {
+  background: #0d0;
+  width: 150px;
+}
+
+/* line 472, ../sass/admin.scss */
+.pw-very-strong .label {
+  color: #0d0;
+}
+
+/*End密碼強度指示*/
+/* line 478, ../sass/admin.scss */
+.changepw {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+/* line 484, ../sass/admin.scss */
+.paper2.saleinfo {
+  margin: 30px;
+}
+/* line 486, ../sass/admin.scss */
+.paper2.saleinfo h3 {
+  display: inline-block;
+  min-width: 200px;
+  margin: 20px 0;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom-style: double;
+  font-weight: bolder;
+}
+/* line 498, ../sass/admin.scss */
+.paper2 input[type=checkbox], .paper2 input[type=radio] {
+  margin-left: 15px;
+  margin-right: 3px;
+}
+
+/* line 504, ../sass/admin.scss */
+.subtable th {
+  text-align: right;
+}
+
+/* line 508, ../sass/admin.scss */
+.admineditpic {
+  height: 150px;
+  width: auto;
+}
+
+/* line 513, ../sass/admin.scss */
+.memberblock {
+  width: 80vw;
+  height: 80vh;
+}
+
+/* line 517, ../sass/admin.scss */
+.memberblock_put {
+  height: 30vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* line 526, ../sass/admin.scss */
+.memberone {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 15px;
+}
+/* line 530, ../sass/admin.scss */
+.memberone input {
+  margin-right: 5px;
+}
+
+/* line 535, ../sass/admin.scss */
+.getdelete {
+  cursor: pointer;
+  border-radius: 30px;
+}
+/* line 538, ../sass/admin.scss */
+.getdelete:hover {
+  background-color: #eee;
+}
+
+/* line 543, ../sass/admin.scss */
+.gopage {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 5px 12px;
+  margin: 5px;
+}
+/* line 548, ../sass/admin.scss */
+.gopage.on {
+  background-color: #eee;
+}
+
+/* line 554, ../sass/admin.scss */
+.itemone i {
+  font-size: 1.5em;
+}
+
+/* line 559, ../sass/admin.scss */
+.listblock {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* line 564, ../sass/admin.scss */
+.adminnote {
+  font-size: 0.8em;
+  padding: 5px;
+  display: block;
+}
+/* line 568, ../sass/admin.scss */
+.adminnote.c_ccc {
+  color: #ccc;
+}
+
+/* line 572, ../sass/admin.scss */
+.form-control {
+  width: calc( 100% - 25px );
+}
+/* line 574, ../sass/admin.scss */
+.form-control.widths {
+  width: calc(100% - 200px);
+}
+/* line 577, ../sass/admin.scss */
+.form-control.inb {
+  display: inline-block;
+}
+/* line 580, ../sass/admin.scss */
+.form-control.w80 {
+  width: 80px;
+}
+/* line 583, ../sass/admin.scss */
+.form-control.w150 {
+  width: 150px;
+}
+/* line 586, ../sass/admin.scss */
+.form-control.w250 {
+  width: 250px;
+}
+/* line 589, ../sass/admin.scss */
+.form-control.w350 {
+  width: 350px;
+}
+/* line 592, ../sass/admin.scss */
+.form-control.w500 {
+  width: 90%;
+  max-width: 500px;
+}
+
+/* line 598, ../sass/admin.scss */
+.itemlist {
+  padding-left: 0;
+}
+/* line 600, ../sass/admin.scss */
+.itemlist li {
+  list-style: none;
+}
+/* line 602, ../sass/admin.scss */
+.itemlist li input {
+  width: 70%;
+  display: inline-block;
+  margin: 5px 10px;
+}
+/* line 607, ../sass/admin.scss */
+.itemlist li div {
+  width: 100%;
+  margin-left: 15px;
+  display: inline-block;
+}
+/* line 611, ../sass/admin.scss */
+.itemlist li div table {
+  width: 100%;
+}
+/* line 614, ../sass/admin.scss */
+.itemlist li div td {
+  padding: 0;
+}
+/* line 616, ../sass/admin.scss */
+.itemlist li div td input {
+  width: 90%;
+}
+
+/* line 623, ../sass/admin.scss */
+.c_blue {
+  color: blue;
+}
+
+/* line 626, ../sass/admin.scss */
+.c_warning {
+  color: red;
+}
+
+/* line 629, ../sass/admin.scss */
+.c_red {
+  color: red;
+}
+
+/* line 632, ../sass/admin.scss */
+.f_bolder {
+  font-weight: bolder;
+}
+
+/* line 636, ../sass/admin.scss */
+.td_ws {
+  width: 100px;
+}
+/* line 638, ../sass/admin.scss */
+.td_ws input {
+  width: 100%;
+}
+
+/* line 642, ../sass/admin.scss */
+.td_ws2 {
+  width: 50px;
+}
+/* line 644, ../sass/admin.scss */
+.td_ws2 input {
+  width: 100%;
+}
+/* line 647, ../sass/admin.scss */
+.td_ws2.nopad {
+  padding: 0 !important;
+}
+
+/* line 651, ../sass/admin.scss */
+.td_ws2-2 {
+  width: 70px;
+}
+/* line 653, ../sass/admin.scss */
+.td_ws2-2 input {
+  width: 100%;
+}
+/* line 656, ../sass/admin.scss */
+.td_ws2-2.nopad {
+  padding: 0 !important;
+}
+
+/* line 660, ../sass/admin.scss */
+.td_ws3 {
+  width: 150px;
+}
+/* line 662, ../sass/admin.scss */
+.td_ws3 input {
+  width: 100%;
+}
+
+/* line 666, ../sass/admin.scss */
+.td_ws4 {
+  width: 200px;
+}
+/* line 668, ../sass/admin.scss */
+.td_ws4 input {
+  width: 100%;
+}
+
+/* line 672, ../sass/admin.scss */
+.inp100 {
+  width: 90%;
+}
+
+/* line 676, ../sass/admin.scss */
+.ta_r {
+  text-align: right;
+}
+
+/* line 679, ../sass/admin.scss */
+.ta_c {
+  text-align: center;
+}
+
+/* line 684, ../sass/admin.scss */
+table.subtb {
+  table-layout: fixed;
+}
+/* line 686, ../sass/admin.scss */
+table.subtb th, table.subtb td {
+  display: inline-block;
+  text-align: left;
+  padding: .5rem 0.2rem 0.5rem 0.3rem;
+}
+/* line 691, ../sass/admin.scss */
+table.subtb input {
+  margin-left: 5px;
+}
+/* line 696, ../sass/admin.scss */
+table.inptb th {
+  padding: 8px 6px;
+  max-width: 150px;
+}
+/* line 700, ../sass/admin.scss */
+table.inptb td {
+  padding: 3px 0;
+}
+/* line 703, ../sass/admin.scss */
+table.inptb label {
+  margin-right: 15px;
+}
+/* line 705, ../sass/admin.scss */
+table.inptb label.fw {
+  width: 100%;
+}
+/* line 709, ../sass/admin.scss */
+table.inptb span {
+  display: inline-block;
+  margin: 2px 0px;
+  padding: 0 10px;
+}
+/* line 715, ../sass/admin.scss */
+table.inptb span:nth-child(1) {
+  border-left: none;
+}
+/* line 718, ../sass/admin.scss */
+table.inptb input {
+  margin-left: 5px;
+  margin-right: 15px;
+  text-align: left;
+}
+/* line 722, ../sass/admin.scss */
+table.inptb input[type="file"] {
+  width: 100%;
+}
+/* line 725, ../sass/admin.scss */
+table.inptb input.ta_l {
+  text-align: left;
+}
+/* line 728, ../sass/admin.scss */
+table.inptb input.ts_1 {
+  width: 100px;
+}
+/* line 731, ../sass/admin.scss */
+table.inptb input.ts_2 {
+  width: 50px;
+  text-align: center;
+}
+/* line 735, ../sass/admin.scss */
+table.inptb input.ts_3 {
+  width: 70px;
+  text-align: center;
+}
+/* line 740, ../sass/admin.scss */
+table.inptb textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  min-width: 150px;
+}
+/* line 746, ../sass/admin.scss */
+table.inptb img {
+  max-height: 100px;
+  width: auto;
+}
+/* line 750, ../sass/admin.scss */
+table.inptb i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* line 756, ../sass/admin.scss */
+table#merchlisttable td, table#merchlisttable th {
+  padding: 3px 0;
+}
+/* line 758, ../sass/admin.scss */
+table#merchlisttable td input, table#merchlisttable th input {
+  margin-right: 5px;
+}
+/* line 761, ../sass/admin.scss */
+table#merchlisttable td span, table#merchlisttable th span {
+  padding: 0;
+}
+
+/* line 769, ../sass/admin.scss */
+.ds-inlineblock {
+  display: inline-block;
+}
+
+/* line 772, ../sass/admin.scss */
+.downloadfile {
+  margin-left: 50px;
+}
+/* line 774, ../sass/admin.scss */
+.downloadfile a {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/* line 781, ../sass/admin.scss */
+ol.saleinfo {
+  padding: 0 20px;
+}
+/* line 783, ../sass/admin.scss */
+ol.saleinfo li {
+  margin: 15px 0;
+}
+/* line 787, ../sass/admin.scss */
+ol.saleinfosub {
+  margin: 0;
+}
+/* line 789, ../sass/admin.scss */
+ol.saleinfosub li {
+  margin: 8px 0;
+}
+
+/* line 795, ../sass/admin.scss */
+.item_en {
+  list-style: upper-alpha;
+}
+
+/* line 798, ../sass/admin.scss */
+.item_en2 {
+  list-style: lower-alpha;
+}
+
+/* line 802, ../sass/admin.scss */
+.salecontent {
+  margin: 20px 15px 60px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+/* line 808, ../sass/admin.scss */
+.arhlist {
+  position: fixed;
+  top: 5vh;
+  left: 0;
+  padding: 20px;
+  width: 90vw;
+  max-width: 800px;
+  left: 50%;
+  /* 水平居中 */
+  transform: translateX(-50%);
+  background-color: #eee;
+  z-index: 101;
+}
+/* line 819, ../sass/admin.scss */
+.arhlist a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 20px;
+}
+/* line 824, ../sass/admin.scss */
+.arhlist i {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  color: #000;
+  font-size: 2em;
+}
+
+/* line 833, ../sass/admin.scss */
+#consignment {
+  margin-top: 60px;
+  width: 90vw;
+  max-width: 800px;
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  /* 水平居中 */
+  transform: translateX(-50%);
+  height: calc( 90vh - 60px );
+  overflow: scroll;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* line 846, ../sass/admin.scss */
+.fullmask {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 856, ../sass/admin.scss */
+.signupform {
+  width: 90vw;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+/* line 864, ../sass/admin.scss */
+th.thinth {
+  width: 10%;
+}
+
+/* line 869, ../sass/admin.scss */
+#confirm {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+/* line 875, ../sass/admin.scss */
+.btnlist {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 882, ../sass/admin.scss */
+.btnlist button {
+  margin: 0 10px;
+}
+
+/* line 887, ../sass/admin.scss */
+input[text] {
+  width: 150px;
+}
+/* line 889, ../sass/admin.scss */
+input[text].ts_1 {
+  width: 100px;
+}
+/* line 892, ../sass/admin.scss */
+input[text].ts_2 {
+  width: 50px;
+}
+
+/* line 897, ../sass/admin.scss */
+button i {
+  font-size: 1.2em;
+}
+
+/* line 902, ../sass/admin.scss */
+select.form-control {
+  font-size: 1em !important;
+  width: 100px;
+  display: inline-block;
+}
+/* line 906, ../sass/admin.scss */
+select.form-control.w1 {
+  width: 150px;
+}
+/* line 909, ../sass/admin.scss */
+select.form-control.w2 {
+  width: 200px;
+}
+/* line 912, ../sass/admin.scss */
+select.form-control.w3 {
+  width: 300px;
+}
+/* line 915, ../sass/admin.scss */
+select.form-control.wauto {
+  width: 100%;
+}
+
+/* line 919, ../sass/admin.scss */
+.m_save {
+  display: none;
+}
+
+/* line 924, ../sass/admin.scss */
+.bandname {
+  font-size: 1.2em;
+  float: right;
+  margin: 10px 20px;
+}
+
+/* line 930, ../sass/admin.scss */
+.warnglist {
+  list-style: none;
+  /* 去掉預設項目符號 */
+  padding: 10px;
+}
+/* line 933, ../sass/admin.scss */
+.warnglist li {
+  margin: 6px 0;
+  position: relative;
+  text-indent: -19px;
+  padding-left: 19px;
+  display: block;
+}
+/* line 939, ../sass/admin.scss */
+.warnglist li:before {
+  content: " ** ";
+  color: red;
+}
+
+/* line 946, ../sass/admin.scss */
+.ajaxmask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+/* line 955, ../sass/admin.scss */
+.ajaxmask .ajaxnote {
+  font-size: 2em;
+  color: #fff;
+}
+/* line 960, ../sass/admin.scss */
+.ajaxmask.on {
+  display: flex !important;
+  justify-content: center;
+  /* 水平置中 */
+  align-items: center;
+}
+
+/* line 967, ../sass/admin.scss */
+.returninfo {
+  display: none;
+}
+
+/* line 970, ../sass/admin.scss */
+.returndate {
+  display: none;
+}
+
+/* line 974, ../sass/admin.scss */
+.imgblock {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+/* line 978, ../sass/admin.scss */
+.imgblock .title {
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+/* line 984, ../sass/admin.scss */
+.mobilemenuicon {
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  font-size: 2em;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0 15px;
+}
+
+/* line 995, ../sass/admin.scss */
+input {
+  font-size: 1em !important;
+}
+
+/* line 999, ../sass/admin.scss */
+.llpic {
+  width: 30px;
+}
+
+/* line 1004, ../sass/admin.scss */
+.recaptcha-checkbox-borde {
+  background-color: #444746 !important;
+}
+
+/* line 1012, ../sass/admin.scss */
+#showconsignment {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #f00;
+  font-weight: bolder;
+}
+
+/* line 1019, ../sass/admin.scss */
+.bt2 {
+  display: none;
+}
+
+/* line 1023, ../sass/admin.scss */
+button {
+  margin: 3px;
+}
+
+/* line 1027, ../sass/admin.scss */
+.exportblock {
+  display: inline-block;
+  font-size: 1rem;
+}
+/* line 1030, ../sass/admin.scss */
+.exportblock a {
+  border: 1px solid #999;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* line 1038, ../sass/admin.scss */
+.exportexcel {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+/* line 1044, ../sass/admin.scss */
+.goposdata {
+  position: fixed;
+  top: 10px;
+  left: 120px;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+/* line 1051, ../sass/admin.scss */
+.gocrmhome {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+/* line 1058, ../sass/admin.scss */
+.excelwrap {
+  margin: 50px 30px;
+}
+
+/* line 1062, ../sass/admin.scss */
+.report {
+  clear: both;
+}
+
+/* line 1065, ../sass/admin.scss */
+.minwrap {
+  max-width: 900px;
+  position: relative;
+}
+
+/*********************************************************************************************/
+@media only screen and (max-width: 768px) {
+  /* 768 */
+  /* line 1074, ../sass/admin.scss */
+  .mobilemenuicon {
+    display: block;
+    left: 20px;
+  }
+
+  /* line 1078, ../sass/admin.scss */
+  ul.menu {
+    top: 40px;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+  }
+
+  /* line 1084, ../sass/admin.scss */
+  header {
+    width: 100%;
+  }
+
+  /* line 1087, ../sass/admin.scss */
+  #consignment {
+    height: calc( 85vh - 150px );
+  }
+
+  /* line 1090, ../sass/admin.scss */
+  .paper2 {
+    padding-top: 30px;
+  }
+  /* line 1091, ../sass/admin.scss */
+  .paper2.saleinfo {
+    margin: 0px;
+  }
+
+  /* line 1096, ../sass/admin.scss */
+  .salecontent {
+    margin: 20px 0px 60px;
+  }
+
+  /* line 1099, ../sass/admin.scss */
+  .arhlist {
+    text-align: center;
+  }
+
+  /* line 1102, ../sass/admin.scss */
+  .amdin_wrapper {
+    width: 100%;
+    padding: 5% 5%;
+  }
+
+  /* line 1106, ../sass/admin.scss */
+  .use_bg {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* line 1110, ../sass/admin.scss */
+  .enter_ipt {
+    width: 80%;
+  }
+
+  /* line 1113, ../sass/admin.scss */
+  header {
+    display: none;
+  }
+
+  /* line 1116, ../sass/admin.scss */
+  .continer {
+    margin-left: 0;
+  }
+
+  /* line 1119, ../sass/admin.scss */
+  .bandname {
+    position: absolute;
+    right: 0;
+  }
+
+  /* line 1125, ../sass/admin.scss */
+  table#merchlisttable table {
+    display: block;
+  }
+  /* line 1128, ../sass/admin.scss */
+  table#merchlisttable thead {
+    display: none;
+    /* 隱藏表頭 */
+  }
+  /* line 1131, ../sass/admin.scss */
+  table#merchlisttable tbody, table#merchlisttable tr {
+    display: flex;
+    flex-direction: column;
+    /* 垂直堆疊 */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  /* line 1138, ../sass/admin.scss */
+  table#merchlisttable td {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 0;
+  }
+  /* line 1143, ../sass/admin.scss */
+  table#merchlisttable td::before {
+    content: attr(data-label);
+    /* 顯示對應的表頭名稱 */
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+    width: 120px;
+    /* 固定左側寬度 */
+    flex-shrink: 0;
+    /* 避免縮小 */
+  }
+  /* line 1151, ../sass/admin.scss */
+  table#merchlisttable td span {
+    width: 100%;
+    flex-grow: 1;
+    /* 右側內容填滿剩餘空間 */
+  }
+  /* line 1154, ../sass/admin.scss */
+  table#merchlisttable td span input, table#merchlisttable td span textarea, table#merchlisttable td span select {
+    width: 100% !important;
+    text-align: left;
+  }
+
+  /* line 1161, ../sass/admin.scss */
+  .bandname {
+    top: 45px;
+  }
+
+  /* line 1164, ../sass/admin.scss */
+  ul.shotcut {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* 640 */
+  /* line 1173, ../sass/admin.scss */
+  #consignment {
+    height: calc( 85vh - 150px );
+  }
+
+  /* line 1176, ../sass/admin.scss */
+  .form-control {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* 375 */
+  /* line 1186, ../sass/admin.scss */
+  #consignment {
+    height: calc( 85vh - 150px );
+  }
+
+  /* line 1189, ../sass/admin.scss */
+  .bandname {
+    top: 65px;
+    font-size: 1em;
+  }
+
+  /* line 1193, ../sass/admin.scss */
+  .continer {
+    padding-top: 70px;
+  }
+
+  /* line 1197, ../sass/admin.scss */
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* line 1200, ../sass/admin.scss */
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  /* line 1203, ../sass/admin.scss */
+  .inptb {
+    table-layout: fixed;
+  }
+}
+/*******************************/

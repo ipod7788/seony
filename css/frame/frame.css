@@ -1,0 +1,627 @@
+/**
+ * respond( $a [ ,$b ] )
+ * Generate media quereis string
+ *
+ * @include respond( 0, 799 ) {}    // <=800  (0~800)
+ * @include respond( 800, 1199 ) {} // 800~1199
+ * @include respond( 1200 ) {}      // >=1200
+ */
+/**
+ * Cozy Layout ( 1440+ )
+ */
+/**
+ * Compact Layout ( 0~1280 )
+ */
+/**
+ * pad Layout ( 0~992 )
+ */
+/**
+ * Mobile Layout ( 0~768 )
+ */
+/**
+ * Mobile Layout ( 0~640 )
+ */
+/**
+ * Mobile Layout ( 0~480 )
+ */
+/**
+ * Mobile Layout ( 0~414 )
+ */
+/**
+ * Mobile Layout ( 0~390 )
+ */
+/**
+ * Mobile Layout ( 0~375 )
+ */
+/**
+ * Mobile Layout ( 0~320 )
+ */
+/**
+ * Box-sizing
+ */
+/**
+ * clearfix
+ */
+/**
+ * font-family
+ */
+/**
+ * hide text
+ */
+/**
+ * border-radius
+ */
+/**
+ * box-shadow
+ */
+/**
+ * background-gradient
+ */
+/**
+ * columns
+ */
+/**
+ * Opacity
+ */
+/**
+ * other minins by yougi
+ */
+/**
+ * Hyperlinks
+ */
+/* line 11, ../../sass/frame/_general.scss */
+a {
+  color: #0077b1;
+  text-decoration: none;
+}
+
+/* line 15, ../../sass/frame/_general.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 18, ../../sass/frame/_general.scss */
+a[target=_blank]:hover {
+  color: #be252c;
+}
+
+/* line 21, ../../sass/frame/_general.scss */
+a.ad,
+a.important {
+  color: #be252c;
+}
+
+/* line 25, ../../sass/frame/_general.scss */
+a img {
+  border: none;
+}
+
+/**
+ * Form Elements
+ */
+/* line 32, ../../sass/frame/_general.scss */
+textarea,
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email],
+input[type=button],
+input[type=submit] {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 46, ../../sass/frame/_general.scss */
+textarea:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+  outline: none;
+}
+
+/**
+ * Common Class Names
+ */
+/* line 58, ../../sass/frame/_general.scss */
+.hide {
+  display: none;
+}
+
+/* line 61, ../../sass/frame/_general.scss */
+.invisible {
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  position: absolute;
+  left: -99999px;
+  top: -99999px;
+}
+
+/* line 119, ../../sass/define/___mixins.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 122, ../../sass/define/___mixins.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* line 70, ../../sass/frame/_general.scss */
+.clearself {
+  overflow: hidden;
+}
+
+/**
+ * inner content style reset
+ */
+/* line 77, ../../sass/frame/_general.scss */
+.content p {
+  margin: 1.2em 0;
+}
+
+/* line 80, ../../sass/frame/_general.scss */
+.content * {
+  line-height: 170%;
+}
+
+/* line 83, ../../sass/frame/_general.scss */
+.content ul,
+.content ol {
+  margin: 1.2em 0 1.2em 2em;
+}
+
+/* line 87, ../../sass/frame/_general.scss */
+.content ul {
+  list-style: disc;
+}
+
+/* line 90, ../../sass/frame/_general.scss */
+.content ol {
+  list-style: decimal;
+}
+
+/**
+ * .button
+ * .button.blue
+ * .button.grey (or .button.gray)
+ * .button.large    // shadow style
+ * .button.medium   // shadow style
+ * .button.small
+ * .button.disabled
+ */
+/* line 10, ../../sass/frame/_button.scss */
+.button {
+  /** active/pressed **/
+  /**
+   * Grey
+   */
+  /**
+   * Blue
+   */
+  /**
+   * gray
+   */
+ /**
+* blink yellow button
+*/
+  /**Header Red **/
+  /** Large **/
+  /**
+   * Medium
+   */
+  /**
+   * Small
+   */
+}
+/* line 11, ../../sass/frame/_button.scss */
+.button {
+  font-size: 12.8px;
+  cursor: pointer;
+  color: white !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  width: auto;
+  text-align: center;
+  line-height: 100%;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background: #be252c;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+}
+/* line 26, ../../sass/frame/_button.scss */
+.button, .button[type] {
+  padding: .5em 1em .4em;
+}
+/* line 30, ../../sass/frame/_button.scss */
+.button:hover {
+  color: white !important;
+  text-decoration: none !important;
+  background: #ce343f;
+}
+/* line 35, ../../sass/frame/_button.scss */
+.button.disabled, .button[disabled] {
+  cursor: default !important;
+  color: #e5babf;
+  background: #cc757f;
+}
+/* line 41, ../../sass/frame/_button.scss */
+.button[type=reset], .button[type=button], .button[type=submit] {
+  font-family: inherit;
+  border: 0 none;
+  margin: 0;
+}
+/* line 51, ../../sass/frame/_button.scss */
+.button:active, .button.pressed {
+  background: #9e1621;
+}
+/* line 54, ../../sass/frame/_button.scss */
+.button:active.large, .button.pressed.large {
+  -webkit-box-shadow: inset 0 -4px 0 0 #be252c;
+  -moz-box-shadow: inset 0 -4px 0 0 #be252c;
+  box-shadow: inset 0 -4px 0 0 #be252c;
+}
+/* line 57, ../../sass/frame/_button.scss */
+.button:active.medium, .button.pressed.medium {
+  -webkit-box-shadow: inset 0 -3px 0 0 #be252c;
+  -moz-box-shadow: inset 0 -3px 0 0 #be252c;
+  box-shadow: inset 0 -3px 0 0 #be252c;
+}
+/* line 65, ../../sass/frame/_button.scss */
+.button.grey, .button.gray {
+  /** active/pressed **/
+}
+/* line 67, ../../sass/frame/_button.scss */
+.button.grey, .button.gray {
+  background: #eee;
+  color: #555 !important;
+}
+/* line 71, ../../sass/frame/_button.scss */
+.button.grey:hover, .button.gray:hover {
+  background: #ddd;
+  color: #555 !important;
+}
+/* line 75, ../../sass/frame/_button.scss */
+.button.grey.disabled, .button.grey[disabled], .button.gray.disabled, .button.gray[disabled] {
+  color: #bbb !important;
+  background: #eee !important;
+}
+/* line 81, ../../sass/frame/_button.scss */
+.button.grey.large, .button.gray.large {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 84, ../../sass/frame/_button.scss */
+.button.grey.large.disabled, .button.grey.large[disabled], .button.gray.large.disabled, .button.gray.large[disabled] {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 90, ../../sass/frame/_button.scss */
+.button.grey.medium, .button.gray.medium {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 93, ../../sass/frame/_button.scss */
+.button.grey.medium.medium.disabled, .button.grey.medium.medium[disabled], .button.gray.medium.medium.disabled, .button.gray.medium.medium[disabled] {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 101, ../../sass/frame/_button.scss */
+.button.grey:active, .button.grey.pressed, .button.gray:active, .button.gray.pressed {
+  background: #333;
+  color: white !important;
+}
+/* line 105, ../../sass/frame/_button.scss */
+.button.grey:active.large, .button.grey.pressed.large, .button.gray:active.large, .button.gray.pressed.large {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 108, ../../sass/frame/_button.scss */
+.button.grey:active.medium, .button.grey.pressed.medium, .button.gray:active.medium, .button.gray.pressed.medium {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 117, ../../sass/frame/_button.scss */
+.button.blue {
+  /** active/pressed **/
+}
+/* line 118, ../../sass/frame/_button.scss */
+.button.blue {
+  background: #1180c2;
+}
+/* line 121, ../../sass/frame/_button.scss */
+.button.blue:hover {
+  background: #2290c6;
+}
+/* line 124, ../../sass/frame/_button.scss */
+.button.blue.disabled, .button.blue[disabled] {
+  color: #b1d1e1 !important;
+  background: #0066a0 !important;
+}
+/* line 130, ../../sass/frame/_button.scss */
+.button.blue.large {
+  -webkit-box-shadow: inset 0 -4px 0 0 #0066a0;
+  -moz-box-shadow: inset 0 -4px 0 0 #0066a0;
+  box-shadow: inset 0 -4px 0 0 #0066a0;
+}
+/* line 133, ../../sass/frame/_button.scss */
+.button.blue.large.disabled, .button.blue.large[disabled] {
+  -webkit-box-shadow: inset 0 -4px 0 0 #b1d1e1;
+  -moz-box-shadow: inset 0 -4px 0 0 #b1d1e1;
+  box-shadow: inset 0 -4px 0 0 #b1d1e1;
+}
+/* line 139, ../../sass/frame/_button.scss */
+.button.blue.medium {
+  -webkit-box-shadow: inset 0 -3px 0 0 #0066a0;
+  -moz-box-shadow: inset 0 -3px 0 0 #0066a0;
+  box-shadow: inset 0 -3px 0 0 #0066a0;
+}
+/* line 142, ../../sass/frame/_button.scss */
+.button.blue.medium.medium.disabled, .button.blue.medium.medium[disabled] {
+  -webkit-box-shadow: inset 0 -3px 0 0 #b1d1e1;
+  -moz-box-shadow: inset 0 -3px 0 0 #b1d1e1;
+  box-shadow: inset 0 -3px 0 0 #b1d1e1;
+}
+/* line 150, ../../sass/frame/_button.scss */
+.button.blue:active, .button.blue.pressed {
+  background: #0066a0;
+}
+/* line 153, ../../sass/frame/_button.scss */
+.button.blue:active.large, .button.blue.pressed.large {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #004e7a;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #004e7a;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #004e7a;
+}
+/* line 156, ../../sass/frame/_button.scss */
+.button.blue:active.medium, .button.blue.pressed.medium {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #004e7a;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #004e7a;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #004e7a;
+}
+/* line 165, ../../sass/frame/_button.scss */
+.button.gray {
+  /** active/pressed **/
+}
+/* line 166, ../../sass/frame/_button.scss */
+.button.gray {
+  background: #e7e7e7;
+}
+/* line 169, ../../sass/frame/_button.scss */
+.button.gray:hover {
+  background: #cccccc;
+}
+/* line 172, ../../sass/frame/_button.scss */
+.button.gray.disabled, .button.gray[disabled] {
+  color: #cccccc !important;
+  background: #e7e7e7 !important;
+}
+/* line 178, ../../sass/frame/_button.scss */
+.button.gray.large {
+  -webkit-box-shadow: inset 0 -4px 0 0 #cccccc;
+  -moz-box-shadow: inset 0 -4px 0 0 #cccccc;
+  box-shadow: inset 0 -4px 0 0 #cccccc;
+}
+/* line 181, ../../sass/frame/_button.scss */
+.button.gray.large.disabled, .button.gray.large[disabled] {
+  -webkit-box-shadow: inset 0 -4px 0 0 #cccccc;
+  -moz-box-shadow: inset 0 -4px 0 0 #cccccc;
+  box-shadow: inset 0 -4px 0 0 #cccccc;
+}
+/* line 187, ../../sass/frame/_button.scss */
+.button.gray.medium {
+  -webkit-box-shadow: inset 0 -3px 0 0 #cccccc;
+  -moz-box-shadow: inset 0 -3px 0 0 #cccccc;
+  box-shadow: inset 0 -3px 0 0 #cccccc;
+}
+/* line 190, ../../sass/frame/_button.scss */
+.button.gray.medium.medium.disabled, .button.gray.medium.medium[disabled] {
+  -webkit-box-shadow: inset 0 -3px 0 0 #cccccc;
+  -moz-box-shadow: inset 0 -3px 0 0 #cccccc;
+  box-shadow: inset 0 -3px 0 0 #cccccc;
+}
+/* line 198, ../../sass/frame/_button.scss */
+.button.gray:active, .button.gray.pressed {
+  background: #777777;
+}
+/* line 201, ../../sass/frame/_button.scss */
+.button.gray:active.large, .button.gray.pressed.large {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #cccccc;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #cccccc;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #cccccc;
+}
+/* line 204, ../../sass/frame/_button.scss */
+.button.gray:active.medium, .button.gray.pressed.medium {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #cccccc;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #cccccc;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #cccccc;
+}
+/* line 213, ../../sass/frame/_button.scss */
+.button.blink {
+  background: #F39C12;
+}
+/* line 216, ../../sass/frame/_button.scss */
+.button.blink:hover {
+  background: #FBB03B;
+}
+/* line 219, ../../sass/frame/_button.scss */
+.button.blink.disabled, .button.blink[disabled] {
+  color: #fffadc !important;
+  background: #D35400 !important;
+}
+/* line 225, ../../sass/frame/_button.scss */
+.button.blink.large {
+  -webkit-box-shadow: inset 0 -4px 0 0 #D35400;
+  -moz-box-shadow: inset 0 -4px 0 0 #D35400;
+  box-shadow: inset 0 -4px 0 0 #D35400;
+}
+/* line 228, ../../sass/frame/_button.scss */
+.button.blink.large.disabled, .button.blink.large[disabled] {
+  -webkit-box-shadow: inset 0 -4px 0 0 #9F400C;
+  -moz-box-shadow: inset 0 -4px 0 0 #9F400C;
+  box-shadow: inset 0 -4px 0 0 #9F400C;
+}
+/* line 234, ../../sass/frame/_button.scss */
+.button.blink.medium {
+  -webkit-box-shadow: inset 0 -3px 0 0 #D35400;
+  -moz-box-shadow: inset 0 -3px 0 0 #D35400;
+  box-shadow: inset 0 -3px 0 0 #D35400;
+}
+/* line 237, ../../sass/frame/_button.scss */
+.button.blink.medium.medium.disabled, .button.blink.medium.medium[disabled] {
+  -webkit-box-shadow: inset 0 -3px 0 0 #9F400C;
+  -moz-box-shadow: inset 0 -3px 0 0 #9F400C;
+  box-shadow: inset 0 -3px 0 0 #9F400C;
+}
+/* line 244, ../../sass/frame/_button.scss */
+.button.blink:active, .button.blink.pressed {
+  background: #D35400;
+}
+/* line 247, ../../sass/frame/_button.scss */
+.button.blink:active.large, .button.blink.pressed.large {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #9F400C;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #9F400C;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 4px 1px 0 #9F400C;
+}
+/* line 250, ../../sass/frame/_button.scss */
+.button.blink:active.medium, .button.blink.pressed.medium {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #9F400C;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #9F400C;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #9F400C;
+}
+/* line 256, ../../sass/frame/_button.scss */
+.button.header-red {
+  /** active/pressed **/
+}
+/* line 257, ../../sass/frame/_button.scss */
+.button.header-red {
+  background: #e8414d;
+  -webkit-box-shadow: inset 0 -4px 0 0 #8f0100;
+  -moz-box-shadow: inset 0 -4px 0 0 #8f0100;
+  box-shadow: inset 0 -4px 0 0 #8f0100;
+  padding-top: .5em;
+  padding-bottom: .8em;
+}
+/* line 263, ../../sass/frame/_button.scss */
+.button.header-red:hover {
+  background: #ea4f5a;
+}
+/* line 269, ../../sass/frame/_button.scss */
+.button.header-red:active, .button.header-red.pressed {
+  background: #ea4f5a;
+  -webkit-box-shadow: inset 0 4px 1px 0 #8f0100;
+  -moz-box-shadow: inset 0 4px 1px 0 #8f0100;
+  box-shadow: inset 0 4px 1px 0 #8f0100;
+}
+/* line 277, ../../sass/frame/_button.scss */
+.button.large {
+  font-size: 15px;
+  padding: 9px 22px 11px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0 -4px 0 0 #9e1621;
+  -moz-box-shadow: inset 0 -4px 0 0 #9e1621;
+  box-shadow: inset 0 -4px 0 0 #9e1621;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 284, ../../sass/frame/_button.scss */
+.button.large.disabled, .button.large[disabled] {
+  -webkit-box-shadow: inset 0 -4px 0 0 #e5babf;
+  -moz-box-shadow: inset 0 -4px 0 0 #e5babf;
+  box-shadow: inset 0 -4px 0 0 #e5babf;
+}
+/* line 288, ../../sass/frame/_button.scss */
+.button.large:active, .button.large.pressed {
+  -webkit-box-shadow: inset 0 4px 1px 0 #7d0b14;
+  -moz-box-shadow: inset 0 4px 1px 0 #7d0b14;
+  box-shadow: inset 0 4px 1px 0 #7d0b14;
+  padding: 11px 22px 9px;
+}
+/* line 299, ../../sass/frame/_button.scss */
+.button.medium {
+  font-size: 13.2px;
+  padding: 8px 16px 9px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0 -3px 0 0 #9e1621;
+  -moz-box-shadow: inset 0 -3px 0 0 #9e1621;
+  box-shadow: inset 0 -3px 0 0 #9e1621;
+}
+/* line 305, ../../sass/frame/_button.scss */
+.button.medium.disabled, .button.medium[disabled] {
+  -webkit-box-shadow: inset 0 -3px 0 0 #e5babf;
+  -moz-box-shadow: inset 0 -3px 0 0 #e5babf;
+  box-shadow: inset 0 -3px 0 0 #e5babf;
+}
+/* line 309, ../../sass/frame/_button.scss */
+.button.medium:active, .button.medium.pressed {
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #7d0b14;
+  -moz-box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #7d0b14;
+  box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 0.5), inset 0 3px 1px 0 #7d0b14;
+  padding: 9px 16px 8px;
+}
+/* line 320, ../../sass/frame/_button.scss */
+.button.small {
+  font-size: 12px;
+  padding: .4em .5em .3em;
+}
+
+/**
+ * ico-
+ */
+/* line 331, ../../sass/frame/_button.scss */
+.button.large.ico-arrow {
+  padding-left: 33px;
+}
+
+/**
+ * collect-button style
+ */
+/* line 339, ../../sass/frame/_button.scss */
+.button.collect-button {
+  height: 30px;
+  width: 80px;
+  padding-left: 17px !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+
+/* line 1, ../../sass/frame/_header.scss */
+header {
+  position: fixed;
+  color: #b4b4b4;
+  width: 100%;
+  z-index: 1000;
+}
