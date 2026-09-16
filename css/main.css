@@ -297,7 +297,7 @@ input[type=email]:focus {
 }
 /* line 11, ../sass/frame/_button.scss */
 .button {
-  font-size: 12.8px;
+  font-size: 0.8rem;
   cursor: pointer;
   color: white !important;
   text-decoration: none !important;
@@ -611,7 +611,7 @@ input[type=email]:focus {
 }
 /* line 277, ../sass/frame/_button.scss */
 .button.large {
-  font-size: 15px;
+  font-size: 0.9375rem;
   padding: 9px 22px 11px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -641,7 +641,7 @@ input[type=email]:focus {
 }
 /* line 299, ../sass/frame/_button.scss */
 .button.medium {
-  font-size: 13.2px;
+  font-size: 0.825rem;
   padding: 8px 16px 9px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -665,7 +665,7 @@ input[type=email]:focus {
 }
 /* line 320, ../sass/frame/_button.scss */
 .button.small {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: .4em .5em .3em;
 }
 
@@ -711,7 +711,7 @@ body {
   font-family: '微軟正黑體','Noto Sans TC', 'PingFang TC', 'Heiti TC', sans-serif;
   background: #ffffff;
   color: #620000;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: justify;
 }
 
@@ -799,7 +799,7 @@ header.scrolled .navbar {
 .menu-toggle {
   display: none;
   /* 手機才顯示 */
-  font-size: 28px;
+  font-size: 1.75rem;
   cursor: pointer;
   position: fixed;
   top: 20px;
@@ -857,7 +857,7 @@ footer .cy {
   top: 30%;
   left: 15vw;
   width: 30%;
-  max-width: 575px;
+  max-width: 35.9375rem;
   height: auto;
 }
 /* line 140, ../sass/media/_main_inside.scss */
@@ -904,7 +904,7 @@ h1 .title-tw {
   background-position: left;
   padding-left: 40px;
   font-size: clamp(1.2rem, 3vw, 1.8rem);
-  max-width: 200px;
+  max-width: 12.5rem;
   font-weight: normal;
 }
 
@@ -946,7 +946,7 @@ h3 span.ss2 {
 /* line 214, ../sass/media/_main_inside.scss */
 .main-wrap {
   width: 100%;
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -1039,7 +1039,7 @@ h3 span.ss2 {
   align-items: center;
   margin-bottom: 40px;
   margin: 30px auto;
-  max-width: 1300px;
+  max-width: 81.25rem;
 }
 
 /* line 289, ../sass/media/_main_inside.scss */
@@ -1118,7 +1118,7 @@ h3 span.ss2 {
 .news-card .date {
   display: block;
   text-align: right;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-top: 10px;
   position: absolute;
   bottom: 25px;
@@ -1181,7 +1181,7 @@ h3 span.ss2 {
 .about-logo {
   float: right;
   width: 100%;
-  max-width: 350px;
+  max-width: 21.875rem;
   padding: 0 40px;
 }
 
@@ -1189,7 +1189,7 @@ h3 span.ss2 {
 .about-image {
   flex-shrink: 0;
   width: 40%;
-  max-width: 450px;
+  max-width: 28.125rem;
 }
 /* line 419, ../sass/media/_main_inside.scss */
 .about-image img {
@@ -1218,7 +1218,7 @@ h3 span.ss2 {
 /* line 439, ../sass/media/_main_inside.scss */
 .timeline-wrapper {
   position: relative;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -1250,7 +1250,7 @@ h3 span.ss2 {
 /* line 469, ../sass/media/_main_inside.scss */
 .timeline-item.center {
   flex-direction: column;
-  max-width: 850px;
+  max-width: 53.125rem;
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -1321,7 +1321,7 @@ h3 span.ss2 {
   position: absolute;
   top: -5vw;
   right: 0;
-  max-width: 500px;
+  max-width: 31.25rem;
   width: 35vw;
 }
 /* line 542, ../sass/media/_main_inside.scss */
@@ -1379,7 +1379,7 @@ h3 span.ss2 {
 }
 /* line 586, ../sass/media/_main_inside.scss */
 .story2-card img {
-  max-width: 250px;
+  max-width: 15.625rem;
   width: auto;
   height: 100%;
   border-radius: 6px;
@@ -1389,7 +1389,7 @@ h3 span.ss2 {
 
 /* line 596, ../sass/media/_main_inside.scss */
 .swiper {
-  max-width: 1200px;
+  max-width: 75rem;
   width: 100%;
   height: 300px;
   padding: 0 50px;
@@ -1464,7 +1464,7 @@ h3 span.ss2 {
 
 /* line 660, ../sass/media/_main_inside.scss */
 .procuts-pic1 {
-  max-width: 750px;
+  max-width: 46.875rem;
   position: relative;
   top: -30px;
   right: -10%;
@@ -1490,7 +1490,7 @@ h3 span.ss2 {
   position: absolute;
   bottom: 22%;
   right: 5%;
-  max-width: 400px;
+  max-width: 25rem;
   border: 1px solid #ccc;
 }
 /* line 685, ../sass/media/_main_inside.scss */
@@ -1530,7 +1530,7 @@ h3 span.ss2 {
 /* line 714, ../sass/media/_main_inside.scss */
 .products-pic3 {
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -1597,7 +1597,7 @@ h3 span.ss2 {
   color: white;
   border-radius: 10px;
   width: 100%;
-  max-width: 230px;
+  max-width: 14.375rem;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -1656,7 +1656,7 @@ h3 span.ss2 {
 /* line 826, ../sass/media/_main_inside.scss */
 .product-detail-text {
   flex: 0 0 35%;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.8;
   color: #600;
 }
@@ -1681,7 +1681,7 @@ h3 span.ss2 {
 }
 /* line 847, ../sass/media/_main_inside.scss */
 .product-detail-image .note {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #888;
   margin-top: 8px;
   text-align: center;
@@ -1711,7 +1711,7 @@ h3 span.ss2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   align-items: center;
 }
@@ -1747,18 +1747,18 @@ h3 span.ss2 {
 }
 /* line 904, ../sass/media/_main_inside.scss */
 .product-pic8-one.s1 {
-  max-width: 380px;
+  max-width: 23.75rem;
 }
 /* line 907, ../sass/media/_main_inside.scss */
 .product-pic8-one.s2 {
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
 /* line 912, ../sass/media/_main_inside.scss */
 .products_video {
   padding: 30px 0;
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 }
 /* line 917, ../sass/media/_main_inside.scss */
@@ -1772,7 +1772,7 @@ h3 span.ss2 {
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -1785,7 +1785,7 @@ h3 span.ss2 {
 
 /* line 938, ../sass/media/_main_inside.scss */
 .product-title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: #600;
@@ -1917,7 +1917,7 @@ a:hover.readmore {
   background-size: cover;
   background-position: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 30px;
   border-radius: 15px;
@@ -1944,13 +1944,13 @@ a:hover.readmore {
 }
 /* line 1080, ../sass/media/_main_inside.scss */
 .bg_sub.story2 p.ww1 {
-  max-width: 800px;
+  max-width: 50rem;
   width: 100%;
   margin: 0 auto;
 }
 /* line 1085, ../sass/media/_main_inside.scss */
 .bg_sub.story2 p.ww2 {
-  max-width: 500px;
+  max-width: 31.25rem;
   width: 100%;
   margin: 0 auto;
   padding-top: 0px;
@@ -2027,7 +2027,7 @@ a {
 
   /* line 42, ../sass/media/_touch_main_inside.scss */
   .about-logo {
-    max-width: 280px;
+    max-width: 17.5rem;
     padding: 0 20px;
   }
 
@@ -2045,7 +2045,7 @@ a {
   .product-pic8-one {
     flex: 0 0 calc(45% - 10px);
     /* 2個一排 */
-    max-width: 360px;
+    max-width: 22.5rem;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -2079,7 +2079,7 @@ a {
 
   /* line 82, ../sass/media/_touch_main_inside.scss */
   .timeline-item.center {
-    max-width: 600px;
+    max-width: 37.5rem;
   }
 
   /* line 85, ../sass/media/_touch_main_inside.scss */
@@ -2295,7 +2295,7 @@ a {
   .product-pic8-one {
     flex: 0 0 calc(80% - 10px);
     /* 2個一排 */
-    max-width: 360px;
+    max-width: 22.5rem;
   }
 
   /* line 259, ../sass/media/_touch_main_inside.scss */
@@ -2422,7 +2422,7 @@ a {
   /* line 347, ../sass/media/_touch_main_inside.scss */
   .procuts-pic1 {
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25rem;
     margin: 0 auto;
   }
 
@@ -2556,7 +2556,7 @@ a {
   .about-logo {
     float: none;
     width: 100%;
-    max-width: 350px;
+    max-width: 21.875rem;
     display: block;
     margin: 0 auto;
   }
@@ -2631,7 +2631,7 @@ a {
   .product-pic8-one.s1 {
     max-width: 100%;
     flex: 0 0 100%;
-    max-width: 360px;
+    max-width: 22.5rem;
   }
 
   /* line 513, ../sass/media/_touch_main_inside.scss */
@@ -2690,7 +2690,7 @@ a {
   /* line 549, ../sass/media/_touch_main_inside.scss */
   .procuts-pic1-text {
     width: 100%;
-    max-width: 360px;
+    max-width: 22.5rem;
   }
 }
 @media only screen and (max-width: 480px) {
